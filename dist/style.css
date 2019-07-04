@@ -1,0 +1,32 @@
+#div{
+    display: grid;
+  grid-template-columns:repeat(3, 1fr);
+  column-gap: 1em;
+  row-gap: 1em;
+  color: rgb(0, 81, 255);
+  
+  
+}
+
+.recipes{
+    grid-gap: 10px;
+    background-color: rgb(165, 42, 69);
+    max-height:300px;
+    overflow:auto;
+    
+}
+img{
+    margin-top:10px; 
+    max-width:150px;
+    max-height:150px 
+}
+ul{
+    display: flex;
+    flex-direction: column ;
+    flex-wrap: wrap
+}
+
+a{
+    position: relative;
+    top: 10px;
+}

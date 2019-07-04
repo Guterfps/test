@@ -13,7 +13,7 @@ class Renderer{
     constructor(){}
     render(data){
         for (let i of data){
-            $("body").append(`<div class='recipes'>
+            $("#div").append(`<div class='recipes'>
             <a href=${i.href}>${i.title}</a>
             <img class='img' src=${i.thumbnail}>
             <ul id=${data.indexOf(i)}>
